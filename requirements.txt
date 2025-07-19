@@ -1,5 +1,6 @@
-streamlit==1.32.0
-tensorflow==2.11.0
-numpy
-pillow
-opencv-python-headless
+streamlit==1.23.0
+tensorflow==2.9.3
+Pillow
+opencv-python
+protobuf<3.20  # ensures TF compatibility
+altair<5        # ensures Streamlit compatibility
